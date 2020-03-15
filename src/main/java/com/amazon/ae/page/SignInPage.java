@@ -50,4 +50,8 @@ public class SignInPage extends TestBase {
 		
 		return new HomePage();
 	}
+	
+	public void SignUp() {
+		
+	}
 }
