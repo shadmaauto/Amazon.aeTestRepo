@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon.ae Test Suite">
+
+
+     <listeners>
+     <listener class-name="com.amazon.ae.ExtentReportListener.ExtentReporter"></listener>
+     </listeners>
+	<test name="Amazon.ae WebSite Test Cases">
+	 <classes>
+					  <class name="com.amazon.ae.testcases.HomePageTest"></class> 
+					<!--    <class name="com.amazon.ae.testcases.BestSellersPageTest"></class> -->
+ 					<!--  <class name="com.amazon.ae.testcases.SignInPageTest"></class> -->
+ 					 		
+	</classes>
+	</test>
+	</suite>

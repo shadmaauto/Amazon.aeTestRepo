@@ -1,0 +1,4 @@
+org\com\amazonAE\org\com\amazonAE\Smoketest.class
+com\amazon\ae\testcases\SignInPageTest.class
+com\amazon\ae\testcases\HomePageTest.class
+com\amazon\ae\testcases\BestSellersPageTest.class

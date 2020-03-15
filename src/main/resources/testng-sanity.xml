@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon.ae Sanity Test Suite">
+
+
+
+	<test name="Amazon.ae WebSite Sanity Test Cases">
+	 <classes>
+					  <class name="com.amazon.ae.testcases.HomePageTest"></class> 
+					  <class name="com.amazon.ae.testcases.SignInPageTest"></class>
+ 					 		
+	</classes>
+	</test>
+	</suite>
