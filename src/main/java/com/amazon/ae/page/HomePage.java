@@ -54,5 +54,9 @@ public class HomePage extends TestBase {
 		searchIcon.click();
 	}
 	
+	public void clickElectronicsLInk(String srchTxt) {
+		
+	}
+	
 	
 }
