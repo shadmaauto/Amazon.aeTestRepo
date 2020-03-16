@@ -46,7 +46,7 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(uname, "Hello, shadma","User name text on homepage not matched");
 	}
 	
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void verifyBestSellersLinkTest() {
 			bstSellerPgObj=hmPgObj.clickBestSellersLink();
 	}
