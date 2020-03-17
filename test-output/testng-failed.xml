@@ -5,8 +5,10 @@
     <classes>
       <class name="com.amazon.ae.testcases.HomePageTest">
         <methods>
+          <include name="homePageTitleTest"/>
           <include name="tearDown"/>
-          <include name="verifySearchByText"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.ae.testcases.HomePageTest -->
