@@ -46,8 +46,8 @@ public class HomePageTest extends TestBase {
 	@BeforeTest
 	public void setExtent(){
 		extent = new ExtentReports(System.getProperty("user.dir")+"/test-output/ExtentReport.html", true);
-		extent.addSystemInfo("Host Name", "Naveen Mac");
-		extent.addSystemInfo("User Name", "Naveen Automation Labs");
+		extent.addSystemInfo("Host Name", "Shadma Windows");
+		extent.addSystemInfo("User Name", "si");
 		extent.addSystemInfo("Environment", "QA");
 		
 	}

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="3" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18529" started-at="2020-03-17T18:01:54Z" finished-at="2020-03-17T18:02:13Z">
+  <suite name="Amazon.ae Test Suite" duration-ms="18771" started-at="2020-03-17T18:38:29Z" finished-at="2020-03-17T18:38:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18529" started-at="2020-03-17T18:01:54Z" finished-at="2020-03-17T18:02:13Z">
+    <test name="Amazon.ae WebSite Test Cases" duration-ms="18771" started-at="2020-03-17T18:38:29Z" finished-at="2020-03-17T18:38:48Z">
       <class name="com.amazon.ae.testcases.HomePageTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@146ba0ac]" name="setExtent" is-config="true" duration-ms="115" started-at="2020-03-17T18:01:54Z" finished-at="2020-03-17T18:01:54Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@4dfa3a9d]" name="setExtent" is-config="true" duration-ms="123" started-at="2020-03-17T18:38:29Z" finished-at="2020-03-17T18:38:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@146ba0ac]" name="setup" is-config="true" duration-ms="16406" started-at="2020-03-17T18:01:55Z" finished-at="2020-03-17T18:02:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@4dfa3a9d]" name="setup" is-config="true" duration-ms="16766" started-at="2020-03-17T18:38:29Z" finished-at="2020-03-17T18:38:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="homePageTitleTest()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@146ba0ac]" name="homePageTitleTest" duration-ms="27" started-at="2020-03-17T18:02:11Z" finished-at="2020-03-17T18:02:11Z">
+        <test-method status="FAIL" signature="homePageTitleTest()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@4dfa3a9d]" name="homePageTitleTest" duration-ms="18" started-at="2020-03-17T18:38:46Z" finished-at="2020-03-17T18:38:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Souq is now Amazon.aeee | Welcome to Amazon.ae Online Shopping for Electronics, Apparel, Computers, Grocery & more] but found [Souq is now Amazon.ae | Welcome to Amazon.ae Online Shopping for Electronics, Apparel, Computers, Grocery & more]]]>
@@ -60,22 +60,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazon.ae.testcases.HomePageTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="1709" started-at="2020-03-17T18:02:11Z" finished-at="2020-03-17T18:02:13Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazon.ae.testcases.HomePageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1576" started-at="2020-03-17T18:38:46Z" finished-at="2020-03-17T18:38:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=homePageTitleTest status=FAILURE method=HomePageTest.homePageTitleTest()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@146ba0ac] output={null}]]]>
+                <![CDATA[[TestResult name=homePageTitleTest status=FAILURE method=HomePageTest.homePageTitleTest()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@4dfa3a9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@146ba0ac]" name="endReport" is-config="true" duration-ms="254" started-at="2020-03-17T18:02:13Z" finished-at="2020-03-17T18:02:13Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.amazon.ae.testcases.HomePageTest@4dfa3a9d]" name="endReport" is-config="true" duration-ms="285" started-at="2020-03-17T18:38:48Z" finished-at="2020-03-17T18:38:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.amazon.ae.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Amazon.ae WebSite Test Cases -->
+  </suite> <!-- Amazon.ae Test Suite -->
 </testng-results>
